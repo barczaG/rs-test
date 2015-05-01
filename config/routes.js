@@ -32,9 +32,8 @@ module.exports.routes = {
   *                                                                          *
   ***************************************************************************/
 
-  '/': {
-    view: 'homepage'
-  }
+  '/': 'UsersController.find',
+  'post /registration': 'UsersController.registration',
 
   /***************************************************************************
   *                                                                          *

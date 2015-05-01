@@ -25,12 +25,19 @@
   },
   "scripts": {
     "start": "node app.js",
-    "debug": "node debug app.js"
+    "debug": "node debug app.js",
+    "test": "PORT=9999 NODE_ENV=test mocha -R spec -b --recursive"
   },
   "main": "app.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/moglash/rs-test.git"
+  },
+  "devDependencies": {
+    "barrels": "^1.4.0",
+    "mocha": "^2.1.0",
+    "should": "^4.6.1",
+    "supertest": "^0.15.0"
   },
   "author": "moglash",
   "license": ""

@@ -1,0 +1,3 @@
+module.exports.apiKeys = {
+  	mandrill: 'KEY HERE',
+};
