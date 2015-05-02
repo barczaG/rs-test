@@ -11,7 +11,7 @@ http://takkerapp.com:1337
 
 
 ## Run
-`node app.js`
+`PORT=XXX node app.js`
 
 ## Test
 `npm test`
