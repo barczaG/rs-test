@@ -5,11 +5,14 @@
 http://takkerapp.com:1337
 
 ## Deploy 
-git clone https://github.com/moglash/rs-test .
-npm install
+- `git clone https://github.com/moglash/rs-test .`
+- `npm install`
+
+
 
 ## Run
-node app.js
+`node app.js`
 
 ## Test
-npm test
+`npm test`
+
